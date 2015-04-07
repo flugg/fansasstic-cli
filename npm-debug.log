@@ -45,17 +45,42 @@
 28 silly publish   author: '',
 28 silly publish   license: 'ISC',
 28 silly publish   bin: { fansasstic: 'fansasstic.js' },
-28 silly publish   gitHead: 'd14a5208ccb3a1305556c11a6add18d6d482b401',
+28 silly publish   gitHead: '4f75772ef30696c512dabd2bdbe6d7b3d66b3564',
 28 silly publish   readme: 'ERROR: No README data found!',
 28 silly publish   _id: 'fansasstic-cli@1.0.0',
-28 silly publish   _shasum: 'a46a8fa4afeae0e48a8cfcfdb4dc1a9cacab27d9',
+28 silly publish   _shasum: '7b8bc9b93675234b671c8eb6f811d7048a28908b',
 28 silly publish   _from: '.' }
-29 error need auth auth and email required for publishing
-29 error need auth You need to authorize this machine using `npm adduser`
-30 error System Darwin 14.1.0
-31 error command "node" "/usr/local/bin/npm" "publish"
-32 error cwd /Users/flugg/Code/sass/fansasstic/cli
-33 error node -v v0.10.32
-34 error npm -v 1.4.28
-35 error code ENEEDAUTH
-36 verbose exit [ 1, true ]
+29 verbose request where is /fansasstic-cli
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id d216e93f8152e272
+32 verbose url raw /fansasstic-cli
+33 verbose url resolving [ 'https://registry.npmjs.org/', './fansasstic-cli' ]
+34 verbose url resolved https://registry.npmjs.org/fansasstic-cli
+35 verbose request where is https://registry.npmjs.org/fansasstic-cli
+36 info trying registry request attempt 1 at 14:05:20
+37 http PUT https://registry.npmjs.org/fansasstic-cli
+38 http 409 https://registry.npmjs.org/fansasstic-cli
+39 verbose request where is /fansasstic-cli?write=true
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /fansasstic-cli?write=true
+42 verbose url resolving [ 'https://registry.npmjs.org/', './fansasstic-cli?write=true' ]
+43 verbose url resolved https://registry.npmjs.org/fansasstic-cli?write=true
+44 verbose request where is https://registry.npmjs.org/fansasstic-cli?write=true
+45 info trying registry request attempt 1 at 14:05:22
+46 http GET https://registry.npmjs.org/fansasstic-cli?write=true
+47 http 200 https://registry.npmjs.org/fansasstic-cli?write=true
+48 error publish fail Cannot publish over existing version.
+48 error publish fail Update the 'version' field in package.json and try again.
+48 error publish fail
+48 error publish fail If the previous version was published in error, see:
+48 error publish fail     npm help unpublish
+48 error publish fail
+48 error publish fail To automatically increment version numbers, see:
+48 error publish fail     npm help version
+49 error System Darwin 14.1.0
+50 error command "node" "/usr/local/bin/npm" "publish"
+51 error cwd /Users/flugg/Code/sass/fansasstic/cli
+52 error node -v v0.10.32
+53 error npm -v 1.4.28
+54 error code EPUBLISHCONFLICT
+55 verbose exit [ 1, true ]

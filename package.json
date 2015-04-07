@@ -1,6 +1,6 @@
 {
   "name": "fansasstic-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "bin": {
     "fansasstic": "fansasstic.js"
+  },
+  "dependencies": {
+    "cli": "^0.6.6"
   }
 }
